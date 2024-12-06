@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/bot.js"
+    }
+  ],
+  "env": {
+    "TELEGRAM_BOT_TOKEN": "7389128574:AAFF4gK2piI-pyTZRKpR4SWkQLXgRrKTGiU"
+  }
+}
